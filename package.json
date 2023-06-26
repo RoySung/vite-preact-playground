@@ -1,0 +1,28 @@
+{
+  "name": "vite-preact-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "preact": "^10.13.1",
+    "preact-router": "^4.1.1",
+    "styled-breakpoints": "^12.1.1",
+    "styled-components": "6.0.0-rc.6"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@testing-library/preact": "^3.2.3",
+    "happy-dom": "^9.20.3",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vitest": "^0.32.2",
+    "vitest-dom": "^0.1.0"
+  }
+}
